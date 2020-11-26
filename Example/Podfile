@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TestSDKMile_Example' do
+  pod 'TestSDKMile', :path => '../'
+
+  target 'TestSDKMile_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
